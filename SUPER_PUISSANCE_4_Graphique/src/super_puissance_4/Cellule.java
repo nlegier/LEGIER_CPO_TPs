@@ -81,6 +81,7 @@ public boolean presenceTrouNoir(){
 
 public boolean presenceDesintegrateur(){
    if (desintegrateur == true){
+       
         return true;
     }
     return false ;
@@ -100,6 +101,7 @@ public String lireCouleurDuJeton(){
 public boolean recupererDesintegrateur(){
     if(presenceDesintegrateur()==true) {
         desintegrateur = false ;
+        
         return true;
     }
     return false;

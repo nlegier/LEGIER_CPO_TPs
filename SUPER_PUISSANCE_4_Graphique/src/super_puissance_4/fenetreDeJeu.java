@@ -31,6 +31,9 @@ public class fenetreDeJeu extends javax.swing.JFrame {
                     public void actionPerformed(java.awt.event.ActionEvent evt) {
 
                         Cellule c = cellGraph.celluleAssociee;
+                        
+                       
+                        
                         if (c.jetonCourant == null) {
                             return;
                         }
@@ -405,6 +408,10 @@ public class fenetreDeJeu extends javax.swing.JFrame {
 
         boolean resultatAction = grilleDeJeu.ajouterJetonDansColonne(joueurCourant, indice_colonne);
         PanneauGrille.repaint();
+        
+        
+            
+  
 
         nbdesintJoueur1.setText(ListeJoueurs[0].nombreDesintegrateurs + "");
         nbdesintJoueur2.setText(ListeJoueurs[1].nombreDesintegrateurs + "");

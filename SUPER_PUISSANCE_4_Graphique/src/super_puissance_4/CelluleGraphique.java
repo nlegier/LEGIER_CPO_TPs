@@ -34,6 +34,8 @@ public class CelluleGraphique extends JButton {
             setIcon(img_trouNoir);
         }
         else if(celluleAssociee.presenceDesintegrateur()==true){
+            
+            
             setIcon(img_desint);
         }
         else {
